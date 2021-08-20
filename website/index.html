@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>TRAVEL WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+  	<div class="main">
+  		<div class="logo">
+  			<img src="R.svg">
+  		</div>
+  		<ul id="menuList">
+  			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="#">Services</a></li>
+  			<li><a href="#">Gallery</a></li>
+  			<li><a href="#">About</a></li>
+  			<li><a href="#">Contact us</a></li>
+  		</ul>
+  		</div>
+  	<div class="title">
+  		<h1>TRAVEL WEBSITE</h1>
+  	</div>
+  
+  </header>
+  <script>
+    var menuList =document.getElementById('menuList');
+    menuList.style.maxHeight ="0px";
+    function togglemenu() {
+           if (menuList.style.maxHeight =="0px") 
+           {
+            menuList.style.maxHeight ="130px";
+           }
+           else
+           {
+            menuList.style.maxHeight ="0px";  
+
+           }
+    }
+</script>
+
+</body>
+</html>
